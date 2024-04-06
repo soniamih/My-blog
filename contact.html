@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+
+        <div class="subscribe"> 
+            <form>
+                <input type="email" placeholder="Introdu emailul tau">
+                <button type="submit">Subscribe</button>
+
+            </form>
+        </div>
+      </header>
+      
+    <div class="menu" onclick="openArticles()">ALL ARTICLES</div>
+    <div class="menu" onclick="openReviews()">REVIEWS</div>
+    <div class="menu" onclick="openContact()">CONTACT</div>
+
+ <div class="container">
+   <form>
+        <label>Numele</label>
+        <input type="text" placeholder="Numele tau...">
+
+        <label>Prenume</label>
+        <input type="text" placeholder="Prenumele tau...">
+
+        <label>Tara</label>
+        <select>
+            <option>Romania</option>
+            <option>Franta</option>
+            <option>Grecia</option>
+            <option>Austria</option>
+            <option>Italia</option>
+        </select>
+       
+         <label>Subiect</label>
+         <textarea placeholder="Scrie ceva..." style="height: 200px;"></textarea>
+
+         <input type="submit" value="Submit">
+   </form>
+
+ </div>
+   <script src="script.js"></script>
+</body>
+</html>
